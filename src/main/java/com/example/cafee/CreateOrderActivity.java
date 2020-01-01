@@ -103,7 +103,7 @@ public class CreateOrderActivity extends AppCompatActivity {
         //создаем строку с добавками
         String additions;
         if (builderAdditions.length() > 0){
-            additions = getString(R.string.need_additions) + builderAdditions.toString();
+            additions =  "\n" + getString(R.string.need_additions) + builderAdditions.toString();
         }else {
             additions = "";//или пустое значение
         }
